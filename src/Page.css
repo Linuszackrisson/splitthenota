@@ -1,0 +1,45 @@
+.page-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    margin: 5px 0;
+  }
+  
+  .container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .total p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
